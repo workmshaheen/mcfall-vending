@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { imgLogo } from '../lib/images';
@@ -20,6 +20,15 @@ export default function Layout({ children }: LayoutProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
 
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [menuOpen]);
+
   return (
     <>
       {/* ── Announcement Bar ── */}
@@ -32,7 +41,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="header-inner">
           {/* Hamburger */}
           <button
-            className="hamburger-btn"
+            className={`hamburger-btn${menuOpen ? ' hamburger-open' : ''}`}
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
@@ -66,18 +75,43 @@ export default function Layout({ children }: LayoutProps) {
             </Link>
           </div>
         </div>
-
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="mobile-menu">
-            {NAV_LINKS.map((l) => (
-              <Link key={l.label} href={l.href} onClick={() => setMenuOpen(false)}>
-                {l.label}
-              </Link>
-            ))}
-          </div>
-        )}
       </header>
+
+      {/* ── Mobile Drawer Overlay ── */}
+      <div className={`drawer-overlay${menuOpen ? ' drawer-overlay--visible' : ''}`} onClick={() => setMenuOpen(false)} />
+
+      {/* ── Mobile Drawer ── */}
+      <nav className={`mobile-drawer${menuOpen ? ' mobile-drawer--open' : ''}`}>
+        <div className="mobile-drawer-header">
+          <Link href="/" className="mobile-drawer-logo" onClick={() => setMenuOpen(false)}>
+            <img src={imgLogo} alt="MCFALL Vending Services" />
+          </Link>
+          <button className="mobile-drawer-close" onClick={() => setMenuOpen(false)} aria-label="Close menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+        <div className="mobile-drawer-links">
+          {NAV_LINKS.map((l) => (
+            <Link
+              key={l.label}
+              href={l.href}
+              className={router.pathname === l.href ? 'active' : ''}
+              onClick={() => setMenuOpen(false)}
+            >
+              {l.label}
+            </Link>
+          ))}
+        </div>
+        <div className="mobile-drawer-footer">
+          <Link href="/contact" className="mobile-drawer-cta" onClick={() => setMenuOpen(false)}>
+            Contact Us
+          </Link>
+          <div className="mobile-drawer-contact">
+            <p>info@mcfallvending.com</p>
+            <p>+44 7470 264909</p>
+          </div>
+        </div>
+      </nav>
 
       {/* ── Main Content ── */}
       <main id="MainContent">{children}</main>

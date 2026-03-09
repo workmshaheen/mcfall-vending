@@ -25,14 +25,14 @@ export default function Offices() {
     <>
       <Head>
         <title>Offices — MCFALL Vending Services</title>
-        <meta name="description" content="Fully managed vending solutions designed specifically for office environments." />
+        <meta name="description" content="MCFALL Vending Services — fully managed vending, coffee, and smart fridge solutions designed specifically for office environments across the UK." />
       </Head>
 
       {/* ── BANNER ── */}
       <div className="page-banner">
         <img src={imgNickFewings} alt="Office environment" />
         <div className="page-banner-text">
-          <h1>A Smarter Way to Support Office Productivity</h1>
+          <h1>MCFALL — A Smarter Way to Support Office Productivity</h1>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ export default function Offices() {
       <div className="two-col-text">
         <div>
           <p>
-            Productivity in an office is shaped by how supported people feel throughout the working day. Long periods of screen time, meetings, and focused work place real demands on energy and concentration. When food, drinks, and quality coffee are readily available within the office, employees are better able to sustain focus and maintain consistent energy levels across the day.
+            At MCFALL, we know office productivity is shaped by how supported people feel. Long periods of screen time, meetings, and focused work place real demands on energy and concentration. When food, drinks, and quality coffee are readily available within the office, employees are better able to sustain focus and maintain consistent energy levels across the day.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: 8 }}>
             <a href="#free-assessment" className="btn-green">Book a free workplace assessment</a>
@@ -75,9 +75,9 @@ export default function Offices() {
       <div className="content-image-wrap" style={{ paddingTop: 0 }}>
         <div className="content-image-flex image-right">
           <div className="content-image-text">
-            <h2>A Tailored Full-Service Approach</h2>
+            <h2>The MCFALL Full-Service Approach</h2>
             <h4>
-              We take a full service approach tailored specifically to offices. Rather than supplying a single machine, we design a refreshment setup that fits your space, your team size, and how the office is used. Vending machines, smart fridges, and coffee solutions are combined with full restocking, servicing, and maintenance, so the setup works reliably without creating extra tasks for office managers.
+              MCFALL takes a full service approach tailored specifically to your office. Rather than supplying a single machine, we design a refreshment setup that fits your space, your team size, and how the office is used. Vending machines, smart fridges, and coffee solutions are combined with full restocking, servicing, and maintenance by our team — so the setup works reliably without creating extra tasks for office managers.
             </h4>
           </div>
           <div className="content-image-media">
@@ -110,7 +110,7 @@ export default function Offices() {
           <div className="content-image-text">
             <h2>Measurable Impact</h2>
             <h4>
-              The impact of these improvements is both noticeable and measurable. We use a short set of simple questions, before and after installation, to understand changes in energy levels, morale, and perceived productivity. Offices consistently report a more positive working environment, better focus, and improved morale.
+              The impact of MCFALL installations is both noticeable and measurable. We use a short set of simple questions, before and after installation, to understand changes in energy levels, morale, and perceived productivity. Offices with MCFALL solutions consistently report a more positive working environment, better focus, and improved morale.
             </h4>
           </div>
           <div className="content-image-media">

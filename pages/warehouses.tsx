@@ -25,14 +25,14 @@ export default function Warehouses() {
     <>
       <Head>
         <title>Warehouses — MCFALL Vending Services</title>
-        <meta name="description" content="Fully managed vending solutions designed for warehouse environments and shift workers." />
+        <meta name="description" content="MCFALL Vending Services — fully managed vending, coffee, and smart fridge solutions designed specifically for warehouse environments and shift workers across the UK." />
       </Head>
 
       {/* ── BANNER ── */}
       <div className="page-banner">
         <img src={imgShutterstock} alt="Warehouse environment" />
         <div className="page-banner-text">
-          <h1>Supporting Energy Across Every Shift</h1>
+          <h1>MCFALL — Supporting Energy Across Every Shift</h1>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ export default function Warehouses() {
       <div className="two-col-text">
         <div>
           <p>
-            Energy levels play a direct role in how warehouse teams perform throughout the day. Warehouse roles are physically demanding, with many workers walking several miles per shift, lifting repeatedly, and spending long periods on their feet. Studies consistently show that manual and warehouse roles can burn hundreds of calories per shift, often comparable to light to moderate exercise sustained over many hours.
+            At MCFALL, we understand the physical demands of warehouse work. Energy levels play a direct role in how warehouse teams perform throughout the day. Warehouse roles are physically demanding, with many workers walking several miles per shift, lifting repeatedly, and spending long periods on their feet. Studies consistently show that manual and warehouse roles can burn hundreds of calories per shift, often comparable to light to moderate exercise sustained over many hours.
           </p>
           <p>
             Without reliable access to food, drinks, and hot beverages, it becomes harder for staff to maintain consistent energy and output.
@@ -65,7 +65,7 @@ export default function Warehouses() {
           <div className="content-image-text">
             <h2>24/7 Access for Shift Workers</h2>
             <h4>
-              Shift patterns make access even more important. Many warehouse teams work early mornings, late nights, weekends, or rotating shifts, when external food options are limited or unavailable. On site vending machines, smart fridges, and coffee solutions provide twenty four hour access, ensuring every shift is equally supported regardless of working hours.
+              Shift patterns make access even more important. Many warehouse teams work early mornings, late nights, weekends, or rotating shifts, when external food options are limited or unavailable. MCFALL's on-site vending machines, smart fridges, and coffee solutions provide twenty-four-hour access, ensuring every shift is equally supported regardless of working hours.
             </h4>
           </div>
           <div className="content-image-media">
@@ -81,7 +81,7 @@ export default function Warehouses() {
             {[
               { stat: 'Miles', label: 'The average warehouse worker walks several miles per shift during a working day' },
               { stat: 'Calories', label: 'Warehouse roles can burn hundreds of calories per shift, comparable to light exercise' },
-              { stat: '24/7', label: 'Our machines are available around the clock to support every shift, every day' },
+              { stat: '24/7', label: 'MCFALL machines are available around the clock to support every shift, every day' },
             ].map((s) => (
               <div key={s.stat} style={{ textAlign: 'center', padding: '32px 20px', background: '#fff', borderRadius: 12, border: '1px solid rgba(0,0,0,0.06)' }}>
                 <div style={{ fontSize: '4rem', fontWeight: 700, color: '#1b17ff', letterSpacing: '-0.03em', marginBottom: 8 }}>{s.stat}</div>
@@ -96,9 +96,9 @@ export default function Warehouses() {
       <div className="content-image-wrap">
         <div className="content-image-flex">
           <div className="content-image-text">
-            <h2>Designed for Warehouse Environments</h2>
+            <h2>The MCFALL Full-Service Approach</h2>
             <h4>
-              We take a full service approach designed specifically for warehouse environments. Rather than supplying a single machine, we design a refreshment setup around footfall, break schedules, and space constraints. Vending machines, smart fridges, and hot drink solutions are installed, stocked, serviced, and maintained as part of a managed service that operates reliably without adding work for site or operations teams.
+              MCFALL takes a full service approach designed specifically for warehouse environments. Rather than supplying a single machine, we design a refreshment setup around footfall, break schedules, and space constraints. Vending machines, smart fridges, and hot drink solutions are installed, stocked, serviced, and maintained by the MCFALL team as part of a managed service that operates reliably without adding work for site or operations teams.
             </h4>
           </div>
           <div className="content-image-media">

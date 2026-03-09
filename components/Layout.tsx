@@ -24,7 +24,7 @@ export default function Layout({ children }: LayoutProps) {
     <>
       {/* ── Announcement Bar ── */}
       <div className="announcement-bar">
-        <Link href="/solutions">Explore Our Vending Solutions</Link>
+        <Link href="/solutions">Explore MCFALL Vending Solutions — Free Workplace Assessment Available</Link>
       </div>
 
       {/* ── Header ── */}

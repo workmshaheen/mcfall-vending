@@ -31,7 +31,7 @@ export default function Contact() {
       <section className="contact-page-header">
         <h1>Contact Us</h1>
         <p>
-          If you're experiencing any issues when purchasing from one of our vending machines, or if you'd like to speak with a member of our team regarding an enquiry or a technical matter, please don't hesitate to get in touch. We'll be happy to assist you as quickly as possible.
+          Whether you're experiencing an issue with one of our MCFALL vending machines, or you'd like to speak with a member of the MCFALL team regarding an enquiry, a technical matter, or a free workplace assessment — please don't hesitate to get in touch. We'll be happy to assist you as quickly as possible.
         </p>
       </section>
 
@@ -83,7 +83,7 @@ export default function Contact() {
           <div className="contact-social-section">
             <h3>Social Media</h3>
             <p>
-              Alternatively, you can reach out to us through our social media channels. Follow us to stay updated with our latest news, special offers, and a behind-the-scenes look at what we do.
+              Alternatively, you can reach out to MCFALL through our social media channels. Follow us to stay updated with our latest news, special offers, and a behind-the-scenes look at what we do.
             </p>
             <div className="contact-social-links">
               <a href="#">
@@ -166,7 +166,7 @@ export default function Contact() {
       <section className="contact-banner">
         <div className="contact-banner-inner">
           <h2>Based in Harlow, Essex</h2>
-          <p>Serving offices and warehouses across the UK</p>
+          <p>MCFALL Vending Services — serving offices and warehouses across the UK</p>
           <div className="contact-banner-line" />
         </div>
       </section>

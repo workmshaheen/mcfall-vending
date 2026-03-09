@@ -51,15 +51,15 @@ export default function Solutions() {
     <>
       <Head>
         <title>Vending Solutions — MCFALL Vending Services</title>
-        <meta name="description" content="Fully managed vending machines, coffee machines and smart fridges for offices and warehouses." />
+        <meta name="description" content="MCFALL Vending Services — explore our fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK." />
       </Head>
 
       {/* ── HERO ── */}
       <section className="hero-form-section" style={{ background: '#fff', paddingBottom: 40 }}>
         <div className="hero-form-grid">
           <div className="hero-form-content">
-            <h1>Fully Managed Vending Solutions</h1>
-            <p className="hero-subtitle">We install and manage vending machines, coffee machines and smart fridges for offices and warehouses. Explore the right solution for your workplace below.</p>
+            <h1>MCFALL Vending Solutions</h1>
+            <p className="hero-subtitle">From vending machines and coffee machines to AI-powered smart fridges — MCFALL installs, stocks, and manages everything so your workplace runs smoothly. Explore our range below.</p>
           </div>
           <div className="hero-form-image">
             <img src={imgCoffeeSnak} alt="Vending solutions" />
@@ -82,7 +82,7 @@ export default function Solutions() {
         <div className="solutions-category-header">
           <div className="bubble-label">Vending Machines</div>
           <p className="solutions-category-desc">
-            Modern vending machines fully stocked, monitored, and maintained by our team, delivering reliable 24/7 snacks and drinks without the hassle of managing suppliers, breakdowns, or stock.
+            MCFALL supplies and fully manages modern vending machines — stocked, monitored, and maintained by our team. Reliable 24/7 snacks and drinks without the hassle of managing suppliers, breakdowns, or stock.
           </p>
         </div>
         <div className="machine-grid">
@@ -102,7 +102,7 @@ export default function Solutions() {
         <div className="solutions-category-header">
           <div className="bubble-label">Coffee Machines</div>
           <p className="solutions-category-desc">
-            Barista-quality coffee using premium Lavazza beans, with professional machines fully installed, serviced, and maintained to keep great-tasting hot drinks flowing all day, every day.
+            MCFALL provides barista-quality coffee using premium Lavazza beans. Our professional machines are fully installed, serviced, and maintained by our in-house team to keep great-tasting hot drinks flowing all day, every day.
           </p>
         </div>
         <div className="machine-grid">
@@ -122,7 +122,7 @@ export default function Solutions() {
         <div className="solutions-category-header">
           <div className="bubble-label">Smart Fridges</div>
           <p className="solutions-category-desc">
-            AI-powered smart fridges offering seamless grab-and-go access to food and drinks, fully managed with restocking, monitoring, and support included for effortless workplace retail.
+            MCFALL's AI-powered smart fridges offer seamless grab-and-go access to food and drinks. Fully managed with restocking, monitoring, and ongoing support included — effortless workplace retail, handled by us.
           </p>
         </div>
         <div className="machine-grid machine-grid-3">
@@ -142,12 +142,12 @@ export default function Solutions() {
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <div className="content-image-flex image-right">
             <div className="content-image-text">
-              <h2>Smarter Machines. Better Products.</h2>
+              <h2>The MCFALL Standard — Smarter Machines, Better Products</h2>
               <h4>
-                Our machines use real-time stock tracking and market-leading card readers for fast, secure payments. Guaranteed vend and basket technology ensure customers are only charged when an item is successfully dispensed, while LED lighting and interactive screens make machines easy and intuitive to use.
+                Every MCFALL machine uses real-time stock tracking and market-leading card readers for fast, secure payments. Our guaranteed vend and basket technology means your team is only charged when an item is successfully dispensed. LED lighting and interactive screens make every machine easy and intuitive to use.
               </h4>
               <h4 style={{ marginTop: 20 }}>
-                We stock high-quality food and drink from trusted brands including Lavazza coffee and well-known names like McCoy's, Coca-Cola and Cadbury. Every machine is fully maintained by our in-house engineering team, with proactive servicing and rapid call-outs to keep everything running smoothly.
+                We stock high-quality food and drink from trusted brands including Lavazza coffee and household names like McCoy's, Coca-Cola and Cadbury. Every machine is fully maintained by the MCFALL engineering team, with proactive servicing and rapid call-outs to keep everything running smoothly.
               </h4>
             </div>
             <div className="content-image-media">
@@ -161,7 +161,7 @@ export default function Solutions() {
       <section className="cta-section">
         <div className="cta-grid">
           <div className="cta-content">
-            <h1><strong>Not sure which solution is right for your workplace?</strong></h1>
+            <h1><strong>Not sure which MCFALL solution is right for you?</strong></h1>
             {submitted ? (
               <div style={{ padding: '24px 0', textAlign: 'center' }}>
                 <p style={{ fontSize: '1.8rem', fontWeight: 600, color: '#1b17ff', marginBottom: 8 }}>Thank you!</p>

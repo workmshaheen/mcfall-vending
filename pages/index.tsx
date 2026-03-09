@@ -39,8 +39,8 @@ export default function Home() {
       <section id="free-assessment" className="hero-form-section">
         <div className="hero-form-grid">
           <div className="hero-form-content">
-            <h1>Fully Managed Vending for Offices and Warehouses</h1>
-            <p className="hero-subtitle">We install, stock, and maintain vending machines, coffee machines, and smart fridges — so you don't have to.</p>
+            <h1>MCFALL Vending — Fully Managed Solutions for Your Workplace</h1>
+            <p className="hero-subtitle">We install, stock, and maintain vending machines, coffee machines, and smart fridges across offices and warehouses — so your team stays fuelled and you stay focused on what matters.</p>
             {heroSubmitted ? (
               <div style={{ padding: '24px 0', textAlign: 'center' }}>
                 <p style={{ fontSize: '1.8rem', fontWeight: 600, color: '#1b17ff', marginBottom: 8 }}>Thank you!</p>
@@ -83,9 +83,9 @@ export default function Home() {
               <div className="editorial-stat-label">feel more valued when food and drink is available at work</div>
             </div>
             <div className="editorial-body">
-              <p>Small workplace amenities have a big impact. Access to food and drink supports energy, productivity, and engagement throughout the working day.</p>
-              <p>Over <strong>60%</strong> report improved energy and productivity, and more engaged workplaces see <strong>20–25%</strong> lower staff turnover over time.</p>
-              <p><Link href="#free-assessment"><strong>Book a free workplace assessment</strong></Link></p>
+              <p>At MCFALL, we see it every day — small workplace amenities have a big impact. When your team has easy access to food and drink, energy, productivity, and engagement improve throughout the working day.</p>
+              <p>Over <strong>60%</strong> of employees report improved energy and productivity with on-site refreshments, and more engaged workplaces see <strong>20–25%</strong> lower staff turnover. That is exactly why we do what we do.</p>
+              <p><Link href="#free-assessment"><strong>Book a free MCFALL workplace assessment</strong></Link></p>
             </div>
           </div>
         </div>
@@ -95,8 +95,8 @@ export default function Home() {
       <div className="content-image-wrap">
         <div className="content-image-flex image-right">
           <div className="content-image-text">
-            <h2>What does this look like in practice?</h2>
-            <h4>A fully managed food and drink solution that improves how workplaces feel and function.</h4>
+            <h2>What does a MCFALL setup look like?</h2>
+            <h4>A fully managed food and drink solution tailored to your workplace — installed, stocked, and maintained by the MCFALL team, designed to improve how your workplace feels and functions every day.</h4>
           </div>
           <div className="content-image-media">
             <img src={imgIMG5331} alt="Vending solution in practice" />
@@ -109,8 +109,8 @@ export default function Home() {
         <div className="focus-inner">
           <div className="focus-header">
             <div className="bubble-label">Our Focus</div>
-            <h2 className="focus-heading">Offices and warehouses are our core focus</h2>
-            <p className="focus-subtext">We service these environments day to day and understand how they operate.</p>
+            <h2 className="focus-heading">MCFALL specialises in offices and warehouses</h2>
+            <p className="focus-subtext">We work inside these environments day to day. We understand how they operate, what teams need, and how to make a real difference.</p>
           </div>
           <div className="focus-grid">
             {[
@@ -158,7 +158,7 @@ export default function Home() {
       <section className="cta-section">
         <div className="cta-grid">
           <div className="cta-content">
-            <h1><strong>Ready to see what would work in your workplace?</strong></h1>
+            <h1><strong>Ready to see what MCFALL can do for your workplace?</strong></h1>
             {ctaSubmitted ? (
               <div style={{ padding: '24px 0', textAlign: 'center' }}>
                 <p style={{ fontSize: '1.8rem', fontWeight: 600, color: '#1b17ff', marginBottom: 8 }}>Thank you!</p>

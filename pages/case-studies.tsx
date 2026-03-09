@@ -159,9 +159,9 @@ export default function CaseStudies() {
       <section className="case-studies-hero">
         <div className="case-studies-hero-inner">
           <div className="bubble-label" style={{ marginBottom: 20 }}>Case Studies</div>
-          <h1>Real Client Case Studies</h1>
+          <h1>Real MCFALL Client Case Studies</h1>
           <p>
-            A curated selection of real client case studies, showcasing how our vending solutions are designed, installed, and managed across different workplaces.
+            A curated selection of real client case studies, showcasing how MCFALL vending solutions are designed, installed, and managed across different workplaces.
           </p>
         </div>
       </section>
@@ -176,9 +176,9 @@ export default function CaseStudies() {
       {/* ── BOTTOM CTA ── */}
       <section className="case-studies-cta">
         <div className="case-studies-cta-inner">
-          <h2>Ready to be our next success story?</h2>
+          <h2>Ready to be MCFALL's next success story?</h2>
           <p>
-            Book a free assessment and we'll design a solution tailored to your workplace.
+            Book a free MCFALL workplace assessment and we'll design a solution tailored to your environment.
           </p>
           <a href="/" className="btn-green" style={{ background: '#fff', color: '#1b17ff', marginTop: 8 }}>
             Book Free Assessment

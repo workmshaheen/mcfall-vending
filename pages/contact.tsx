@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import { imgIMG5110 } from '../lib/images';
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
@@ -102,9 +101,6 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="contact-image-block">
-            <img src={imgIMG5110} alt="MCFALL Vending Services team" />
-          </div>
         </div>
 
         {/* ── RIGHT: Contact Form ── */}

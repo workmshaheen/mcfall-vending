@@ -1638,6 +1638,11 @@ button {
 
   .hamburger-btn {
     display: flex;
+    order: 2;
+  }
+
+  .header-logo {
+    order: 1;
   }
 
   .hero-form-grid {

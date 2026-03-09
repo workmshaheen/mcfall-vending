@@ -26,7 +26,13 @@ export default function AboutUs() {
     <>
       <Head>
         <title>About Us — MCFALL Vending Services</title>
-        <meta name="description" content="Learn about MCFALL Vending Services — founded in Harlow, built to improve workplaces across the UK." />
+        <meta name="description" content="Learn about MCFALL Vending Services — founded in Harlow, Essex, built to improve workplaces with fully managed vending solutions across the UK." />
+        <link rel="canonical" href="https://www.mcfallvending.com/about-us" />
+        <meta property="og:title" content="About Us — MCFALL Vending Services" />
+        <meta property="og:description" content="Learn about MCFALL Vending Services — founded in Harlow, built to improve workplaces with fully managed vending solutions across the UK." />
+        <meta property="og:url" content="https://www.mcfallvending.com/about-us" />
+        <meta name="twitter:title" content="About Us — MCFALL Vending Services" />
+        <meta name="twitter:description" content="Learn about MCFALL Vending Services — founded in Harlow, built to improve workplaces with fully managed vending solutions across the UK." />
       </Head>
 
       {/* ── ABOUT HERO ── */}

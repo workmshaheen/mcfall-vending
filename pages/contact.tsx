@@ -25,6 +25,12 @@ export default function Contact() {
       <Head>
         <title>Contact Us — MCFALL Vending Services</title>
         <meta name="description" content="Get in touch with MCFALL Vending Services for enquiries, support, or to book a free workplace assessment." />
+        <link rel="canonical" href="https://www.mcfallvending.com/contact" />
+        <meta property="og:title" content="Contact Us — MCFALL Vending Services" />
+        <meta property="og:description" content="Get in touch with MCFALL Vending Services for enquiries, support, or to book a free workplace assessment." />
+        <meta property="og:url" content="https://www.mcfallvending.com/contact" />
+        <meta name="twitter:title" content="Contact Us — MCFALL Vending Services" />
+        <meta name="twitter:description" content="Get in touch with MCFALL Vending Services for enquiries, support, or to book a free workplace assessment." />
       </Head>
 
       {/* ── PAGE HEADER ── */}

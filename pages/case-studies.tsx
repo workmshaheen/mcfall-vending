@@ -153,6 +153,12 @@ export default function CaseStudies() {
       <Head>
         <title>Case Studies — MCFALL Vending Services</title>
         <meta name="description" content="Real client case studies showing how MCFALL Vending Services solutions are designed, installed, and managed across different workplaces." />
+        <link rel="canonical" href="https://www.mcfallvending.com/case-studies" />
+        <meta property="og:title" content="Case Studies — MCFALL Vending Services" />
+        <meta property="og:description" content="Real client case studies showing how MCFALL vending solutions are designed, installed, and managed across different workplaces." />
+        <meta property="og:url" content="https://www.mcfallvending.com/case-studies" />
+        <meta name="twitter:title" content="Case Studies — MCFALL Vending Services" />
+        <meta name="twitter:description" content="Real client case studies showing how MCFALL vending solutions are designed, installed, and managed across different workplaces." />
       </Head>
 
       {/* ── HEADING ── */}

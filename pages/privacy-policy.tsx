@@ -5,7 +5,12 @@ export default function PrivacyPolicy() {
     <>
       <Head>
         <title>Privacy Policy — MCFALL Vending Services</title>
-        <meta name="description" content="Privacy Policy for MCFALL Vending Services Limited." />
+        <meta name="description" content="Privacy Policy for MCFALL Vending Services Limited. How we collect, use, and protect your personal data." />
+        <link rel="canonical" href="https://www.mcfallvending.com/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy — MCFALL Vending Services" />
+        <meta property="og:description" content="Privacy Policy for MCFALL Vending Services Limited." />
+        <meta property="og:url" content="https://www.mcfallvending.com/privacy-policy" />
+        <meta name="robots" content="noindex, follow" />
       </Head>
 
       <div className="privacy-page">

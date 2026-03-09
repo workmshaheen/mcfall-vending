@@ -26,6 +26,12 @@ export default function Offices() {
       <Head>
         <title>Offices — MCFALL Vending Services</title>
         <meta name="description" content="MCFALL Vending Services — fully managed vending, coffee, and smart fridge solutions designed specifically for office environments across the UK." />
+        <link rel="canonical" href="https://www.mcfallvending.com/offices" />
+        <meta property="og:title" content="Office Vending Solutions — MCFALL Vending Services" />
+        <meta property="og:description" content="Fully managed vending, coffee, and smart fridge solutions designed specifically for office environments across the UK." />
+        <meta property="og:url" content="https://www.mcfallvending.com/offices" />
+        <meta name="twitter:title" content="Office Vending Solutions — MCFALL Vending Services" />
+        <meta name="twitter:description" content="Fully managed vending, coffee, and smart fridge solutions designed specifically for office environments across the UK." />
       </Head>
 
       {/* ── BANNER ── */}

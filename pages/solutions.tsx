@@ -52,6 +52,12 @@ export default function Solutions() {
       <Head>
         <title>Vending Solutions — MCFALL Vending Services</title>
         <meta name="description" content="MCFALL Vending Services — explore our fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK." />
+        <link rel="canonical" href="https://www.mcfallvending.com/solutions" />
+        <meta property="og:title" content="Vending Solutions — MCFALL Vending Services" />
+        <meta property="og:description" content="Explore MCFALL's fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK." />
+        <meta property="og:url" content="https://www.mcfallvending.com/solutions" />
+        <meta name="twitter:title" content="Vending Solutions — MCFALL Vending Services" />
+        <meta name="twitter:description" content="Explore MCFALL's fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK." />
       </Head>
 
       {/* ── HERO ── */}

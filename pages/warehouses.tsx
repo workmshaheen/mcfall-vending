@@ -26,6 +26,12 @@ export default function Warehouses() {
       <Head>
         <title>Warehouses — MCFALL Vending Services</title>
         <meta name="description" content="MCFALL Vending Services — fully managed vending, coffee, and smart fridge solutions designed specifically for warehouse environments and shift workers across the UK." />
+        <link rel="canonical" href="https://www.mcfallvending.com/warehouses" />
+        <meta property="og:title" content="Warehouse Vending Solutions — MCFALL Vending Services" />
+        <meta property="og:description" content="Fully managed vending, coffee, and smart fridge solutions designed specifically for warehouse environments and shift workers across the UK." />
+        <meta property="og:url" content="https://www.mcfallvending.com/warehouses" />
+        <meta name="twitter:title" content="Warehouse Vending Solutions — MCFALL Vending Services" />
+        <meta name="twitter:description" content="Fully managed vending, coffee, and smart fridge solutions designed specifically for warehouse environments and shift workers across the UK." />
       </Head>
 
       {/* ── BANNER ── */}

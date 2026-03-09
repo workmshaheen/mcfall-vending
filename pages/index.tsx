@@ -33,6 +33,36 @@ export default function Home() {
       <Head>
         <title>MCFALL Vending Services — Fully Managed Vending for Offices and Warehouses</title>
         <meta name="description" content="MCFALL Vending Services provides fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK." />
+        <link rel="canonical" href="https://www.mcfallvending.com/" />
+        <meta property="og:title" content="MCFALL Vending Services — Fully Managed Vending for Offices and Warehouses" />
+        <meta property="og:description" content="MCFALL Vending Services provides fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK." />
+        <meta property="og:url" content="https://www.mcfallvending.com/" />
+        <meta name="twitter:title" content="MCFALL Vending Services — Fully Managed Vending for Offices and Warehouses" />
+        <meta name="twitter:description" content="MCFALL Vending Services provides fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK." />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "MCFALL Vending Services",
+            "url": "https://www.mcfallvending.com",
+            "logo": "https://www.mcfallvending.com/images/logo.svg",
+            "image": "https://www.mcfallvending.com/og-image.png",
+            "description": "Fully managed vending machines, coffee machines and smart fridges for offices and warehouses across the UK.",
+            "telephone": "+447470264909",
+            "email": "info@mcfallvending.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Edinburgh Way",
+              "addressLocality": "Harlow",
+              "addressRegion": "Essex",
+              "postalCode": "CM20 2DA",
+              "addressCountry": "GB"
+            },
+            "areaServed": { "@type": "Country", "name": "United Kingdom" },
+            "sameAs": []
+          })}}
+        />
       </Head>
 
       {/* ── HERO ── */}

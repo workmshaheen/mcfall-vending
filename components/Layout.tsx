@@ -141,8 +141,8 @@ export default function Layout({ children }: LayoutProps) {
             <div className="footer-block">
               <h2>Company Details</h2>
               <p>
-                <strong>MCFALL Vending Services Limited</strong><br />
-                Registered in England and Wales | Company No. 16047692 | VAT Registration No. 493 9775 19
+                <strong>MCFALL Vending Services</strong><br />
+                Registered in England
               </p>
             </div>
           </div>

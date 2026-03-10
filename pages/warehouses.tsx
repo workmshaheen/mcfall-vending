@@ -81,17 +81,17 @@ export default function Warehouses() {
       </div>
 
       {/* ── STATS ── */}
-      <section style={{ background: '#fafafa', padding: '60px 20px' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 40 }}>
+      <section className="stats-section">
+        <div className="stats-inner">
+          <div className="stats-grid">
             {[
               { stat: 'Miles', label: 'The average warehouse worker walks several miles per shift during a working day' },
               { stat: 'Calories', label: 'Warehouse roles can burn hundreds of calories per shift, comparable to light exercise' },
               { stat: '24/7', label: 'MCFALL machines are available around the clock to support every shift, every day' },
             ].map((s) => (
-              <div key={s.stat} style={{ textAlign: 'center', padding: '32px 20px', background: '#fff', borderRadius: 12, border: '1px solid rgba(0,0,0,0.06)' }}>
-                <div style={{ fontSize: '4rem', fontWeight: 700, color: '#1b17ff', letterSpacing: '-0.03em', marginBottom: 8 }}>{s.stat}</div>
-                <p style={{ fontSize: '1.5rem', color: 'rgba(0,0,0,0.55)', lineHeight: 1.5 }}>{s.label}</p>
+              <div key={s.stat} className="stats-card">
+                <div className="stats-number">{s.stat}</div>
+                <p className="stats-label">{s.label}</p>
               </div>
             ))}
           </div>

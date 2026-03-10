@@ -93,17 +93,17 @@ export default function Offices() {
       </div>
 
       {/* ── IMPACT SECTION ── */}
-      <section style={{ background: '#fafafa', padding: '60px 20px' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 40 }}>
+      <section className="stats-section">
+        <div className="stats-inner">
+          <div className="stats-grid">
             {[
               { stat: '78%', label: 'of employees feel more valued when food and drink is provided at work' },
               { stat: '60%+', label: 'report improved energy and productivity with on-site refreshments' },
               { stat: '20–25%', label: 'lower staff turnover in workplaces with engaged, supported teams' },
             ].map((s) => (
-              <div key={s.stat} style={{ textAlign: 'center', padding: '32px 20px', background: '#fff', borderRadius: 12, border: '1px solid rgba(0,0,0,0.06)' }}>
-                <div style={{ fontSize: '5rem', fontWeight: 700, color: '#1b17ff', letterSpacing: '-0.03em', marginBottom: 8 }}>{s.stat}</div>
-                <p style={{ fontSize: '1.5rem', color: 'rgba(0,0,0,0.55)', lineHeight: 1.5 }}>{s.label}</p>
+              <div key={s.stat} className="stats-card">
+                <div className="stats-number">{s.stat}</div>
+                <p className="stats-label">{s.label}</p>
               </div>
             ))}
           </div>

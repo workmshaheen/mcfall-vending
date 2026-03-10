@@ -1748,6 +1748,45 @@ button {
   white-space: pre-line;
 }
 
+/* ── Stats Section ── */
+.stats-section {
+  background: #fafafa;
+  padding: 60px 20px;
+}
+
+.stats-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.stats-card {
+  text-align: center;
+  padding: 32px 20px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.stats-number {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #1b17ff;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+
+.stats-label {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.55);
+  line-height: 1.5;
+}
+
 /* ── Responsive ── */
 @media (max-width: 989px) {
   .header-nav {
@@ -1873,6 +1912,64 @@ button {
   .about-hero-inner {
     max-width: 100%;
   }
+
+  .about-hero-section h1 {
+    font-size: 3.2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .stats-number {
+    font-size: 3.5rem;
+  }
+
+  .cta-section {
+    padding: 48px 20px;
+  }
+
+  .cta-content h1 {
+    font-size: 2.6rem;
+  }
+
+  .cta-image {
+    min-height: 300px;
+  }
+
+  .page-banner-text h1 {
+    font-size: 2.6rem;
+  }
+
+  .solutions-category-section {
+    padding: 48px 0 32px;
+  }
+
+  .content-image-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .hero-form-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .about-assessment-inner h2 {
+    font-size: 2.4rem;
+  }
+
+  .case-study-logo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .case-study-title {
+    font-size: 1.6rem;
+  }
+
+  .case-study-images img {
+    height: 200px;
+  }
 }
 
 @media (max-width: 749px) {
@@ -1888,6 +1985,10 @@ button {
   .testimonial-row {
     flex-direction: column;
     text-align: center;
+  }
+
+  .testimonial-row p {
+    font-size: 1.5rem;
   }
 
   .machine-grid {
@@ -1907,30 +2008,150 @@ button {
   }
 
   .page-banner {
-    height: 260px;
+    height: 220px;
+  }
+
+  .page-banner-text h1 {
+    font-size: 2rem;
+    padding: 0 16px;
   }
 
   .case-study-header {
-    padding: 20px;
+    padding: 16px;
+    gap: 12px;
   }
 
   .case-study-expanded {
-    padding: 0 20px 28px;
+    padding: 0 16px 24px;
+  }
+
+  .case-study-images {
+    grid-template-columns: 1fr;
+  }
+
+  .case-study-images img {
+    height: 180px;
+  }
+
+  .case-study-logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+  }
+
+  .case-study-title {
+    font-size: 1.5rem;
+  }
+
+  .case-study-subtitle {
+    font-size: 1.2rem;
   }
 
   .contact-form-box {
-    padding: 28px 24px;
+    padding: 28px 20px;
+  }
+
+  .contact-page-header h1 {
+    font-size: 2.8rem;
+  }
+
+  .case-studies-hero h1 {
+    font-size: 2.8rem;
   }
 
   .case-studies-cta h2 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 
   .contact-banner h2 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 
   .about-brand-section {
     padding: 60px 20px;
+  }
+
+  .about-hero-section h1 {
+    font-size: 2.8rem;
+  }
+
+  .about-hero-map iframe {
+    height: 280px;
+  }
+
+  .cta-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .cta-image {
+    min-height: 240px;
+    border-radius: 14px;
+  }
+
+  .hero-form-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .editorial-stat-number {
+    font-size: 5rem;
+  }
+
+  .content-image-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .focus-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .focus-heading {
+    font-size: 2.2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .stats-number {
+    font-size: 3rem;
+  }
+
+  .stats-card {
+    padding: 24px 16px;
+  }
+
+  .two-col-text {
+    padding: 24px 20px;
+  }
+
+  .contact-grid {
+    gap: 40px;
+    padding: 32px 20px 56px;
+  }
+
+  .contact-card {
+    padding: 16px 18px;
+  }
+
+  .solutions-category-section {
+    padding: 40px 0 24px;
+  }
+
+  .about-assessment-inner h2 {
+    font-size: 2.2rem;
+  }
+
+  .product-card {
+    height: 240px;
+  }
+
+  .product-card-overlay h3 {
+    font-size: 2rem;
   }
 }

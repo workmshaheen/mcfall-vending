@@ -1229,6 +1229,76 @@ button {
   line-height: 1.6;
 }
 
+/* ── Coming Soon (Case Studies Page) ── */
+.coming-soon-section {
+  padding: 100px 20px 120px;
+  text-align: center;
+  background: #fafafa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.coming-soon-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.coming-soon-logo {
+  width: 180px;
+  margin: 0 auto 32px;
+  display: block;
+}
+
+.coming-soon-section h1 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.coming-soon-label {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1b17ff;
+  margin-bottom: 16px;
+}
+
+.coming-soon-text {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.55);
+  line-height: 1.7;
+}
+
+/* ── Coming Soon Banner (Homepage) ── */
+.coming-soon-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 36px 20px;
+  background: #fafafa;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.coming-soon-banner-logo {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.coming-soon-banner-label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1b17ff;
+  margin-bottom: 4px;
+}
+
+.coming-soon-banner-text {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.55);
+  line-height: 1.6;
+}
+
 /* ── Contact Page ── */
 .contact-page-header {
   padding: 56px 20px 0;

@@ -2,10 +2,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import {
-  imgChatVMs, imgMediacityLogo, imgIMG5331,
+  imgChatVMs, imgIMG5331,
   imgIMG6445, imgIMG5233, imgCoffeeSnak, imgIMG3775,
-  imgClient2Logo, imgIMG6999, imgCraneCali, imgSquarePro,
-  imgMediacitySmart,
+  imgIMG6999, imgCraneCali, imgSquarePro,
+  imgMediacitySmart, imgLogo,
 } from '../lib/images';
 
 export default function Home() {
@@ -94,13 +94,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── FIRST TESTIMONIAL ── */}
-      <section className="testimonial-row">
-        <p>"Great selection, and a service we'd happily recommend."{' '}
-          <Link href="/case-studies" style={{ color: '#000' }}><strong>See Case Study</strong></Link>
-        </p>
-        <div className="logo-wrap" style={{ width: 100, height: 100 }}>
-          <img src={imgMediacityLogo} alt="MediaCity" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+      {/* ── CASE STUDIES COMING SOON ── */}
+      <section className="coming-soon-banner">
+        <img src={imgLogo} alt="MCFALL Vending Services" className="coming-soon-banner-logo" />
+        <div>
+          <p className="coming-soon-banner-label">Case Studies — Coming Soon</p>
+          <p className="coming-soon-banner-text">Real client stories showcasing MCFALL vending solutions in action.</p>
         </div>
       </section>
 
@@ -158,15 +157,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── SECOND TESTIMONIAL ── */}
-      <section className="testimonial-row">
-        <p>"MCFALL Vending Services have been great to work with and the ongoing support has been seamless."{' '}
-          <Link href="/case-studies" style={{ color: '#000' }}><strong>See Case Study</strong></Link>
-        </p>
-        <div className="logo-wrap">
-          <img src={imgClient2Logo} alt="Client" />
-        </div>
-      </section>
 
       {/* ── PRODUCT CARDS ── */}
       <div className="product-cards-container">

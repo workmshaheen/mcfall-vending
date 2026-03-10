@@ -89,7 +89,7 @@ export default function Home() {
             )}
           </div>
           <div className="hero-form-image">
-            <img src={imgChatVMs} alt="Vending machines" />
+            <img src={imgChatVMs} alt="Vending machines" width={600} height={525} />
           </div>
         </div>
       </section>
@@ -129,7 +129,7 @@ export default function Home() {
             <p className="body-text">A fully managed food and drink solution tailored to your workplace — installed, stocked, and maintained by the MCFALL team, designed to improve how your workplace feels and functions every day.</p>
           </div>
           <div className="content-image-media">
-            <img src={imgIMG5331} alt="Vending solution in practice" />
+            <img src={imgIMG5331} alt="Vending solution in practice" width={600} height={641} loading="lazy" />
           </div>
         </div>
       </div>
@@ -150,7 +150,7 @@ export default function Home() {
               { src: imgIMG3775, label: 'Warehouse Floors' },
             ].map((item, i) => (
               <div key={i} className="focus-card">
-                <img src={item.src} alt={item.label} />
+                <img src={item.src} alt={item.label} width={400} height={470} loading="lazy" />
                 <div className="focus-card-label">{item.label}</div>
               </div>
             ))}
@@ -176,7 +176,7 @@ export default function Home() {
           { href: '/solutions#smart-fridges', img: imgSquarePro, title: 'Smart Fridges' },
         ].map((c) => (
           <Link key={c.title} href={c.href} className="product-card">
-            <img src={c.img} alt={c.title} className="product-card-img" />
+            <img src={c.img} alt={c.title} className="product-card-img" width={600} height={600} loading="lazy" />
             <div className="product-card-overlay">
               <h3>{c.title}</h3>
             </div>
@@ -207,7 +207,7 @@ export default function Home() {
             )}
           </div>
           <div className="cta-image">
-            <img src={imgMediacitySmart} alt="Smart fridge at MediaCity" />
+            <img src={imgMediacitySmart} alt="Smart fridge at MediaCity" width={600} height={538} loading="lazy" />
           </div>
         </div>
       </section>

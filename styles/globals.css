@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: inherit;
   font-size: 1.5rem;
   line-height: calc(1 + 0.8 / 1.3);
   font-weight: 400;

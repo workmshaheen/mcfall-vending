@@ -70,9 +70,9 @@ export default function Warehouses() {
         <div className="content-image-flex image-right">
           <div className="content-image-text">
             <h2>24/7 Access for Shift Workers</h2>
-            <h4>
+            <p className="body-text">
               Shift patterns make access even more important. Many warehouse teams work early mornings, late nights, weekends, or rotating shifts, when external food options are limited or unavailable. MCFALL's on-site vending machines, smart fridges, and coffee solutions provide twenty-four-hour access, ensuring every shift is equally supported regardless of working hours.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgIMG6282} alt="Warehouse vending" />
@@ -103,9 +103,9 @@ export default function Warehouses() {
         <div className="content-image-flex">
           <div className="content-image-text">
             <h2>The MCFALL Full-Service Approach</h2>
-            <h4>
+            <p className="body-text">
               MCFALL takes a full service approach designed specifically for warehouse environments. Rather than supplying a single machine, we design a refreshment setup around footfall, break schedules, and space constraints. Vending machines, smart fridges, and hot drink solutions are installed, stocked, serviced, and maintained by the MCFALL team as part of a managed service that operates reliably without adding work for site or operations teams.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgChatGPT0916} alt="Warehouse vending solution" />
@@ -118,9 +118,9 @@ export default function Warehouses() {
         <div className="content-image-flex image-right">
           <div className="content-image-text">
             <h2>Measurable Results</h2>
-            <h4>
+            <p className="body-text">
               The impact of improved access to refreshments is both noticeable and measurable. We use a short set of simple questions, before and after installation, to understand changes in energy levels, alertness, and shift experience. Sites consistently report better sustained energy, improved morale, and teams who feel more supported during physically demanding work.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgChatGPT0629} alt="Results" />

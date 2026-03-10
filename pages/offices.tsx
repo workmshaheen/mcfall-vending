@@ -67,9 +67,9 @@ export default function Offices() {
         <div className="content-image-flex">
           <div className="content-image-text">
             <h2>24/7 Access for Flexible Workplaces</h2>
-            <h4>
+            <p className="body-text">
               Access to food and drinks at all times is especially important in office environments, where working patterns are increasingly flexible. Early starts, late finishes, hybrid schedules, and varied team hours are now the norm. Having refreshments available twenty-four hours a day ensures everyone has the same level of support, regardless of when they are in the office.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgOfficeNight} alt="Office at night" />
@@ -82,9 +82,9 @@ export default function Offices() {
         <div className="content-image-flex image-right">
           <div className="content-image-text">
             <h2>The MCFALL Full-Service Approach</h2>
-            <h4>
+            <p className="body-text">
               MCFALL takes a full service approach tailored specifically to your office. Rather than supplying a single machine, we design a refreshment setup that fits your space, your team size, and how the office is used. Vending machines, smart fridges, and coffee solutions are combined with full restocking, servicing, and maintenance by our team — so the setup works reliably without creating extra tasks for office managers.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgIMG4020} alt="Office vending setup" />
@@ -115,9 +115,9 @@ export default function Offices() {
         <div className="content-image-flex">
           <div className="content-image-text">
             <h2>Measurable Impact</h2>
-            <h4>
+            <p className="body-text">
               The impact of MCFALL installations is both noticeable and measurable. We use a short set of simple questions, before and after installation, to understand changes in energy levels, morale, and perceived productivity. Offices with MCFALL solutions consistently report a more positive working environment, better focus, and improved morale.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgIMG6999} alt="Vending machine in office" />

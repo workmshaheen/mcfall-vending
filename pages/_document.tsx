@@ -13,9 +13,18 @@ export default function Document() {
         <meta name="theme-color" content="#1b17ff" />
         <meta name="msapplication-TileColor" content="#1b17ff" />
 
-        {/* ── Fonts ── */}
+        {/* ── Fonts (non-render-blocking) ── */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        />
 
         {/* ── Default OG / Social ── */}
         <meta property="og:site_name" content="MCFALL Vending Services" />

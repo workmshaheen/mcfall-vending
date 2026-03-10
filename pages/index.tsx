@@ -126,7 +126,7 @@ export default function Home() {
         <div className="content-image-flex image-right">
           <div className="content-image-text">
             <h2>What does a MCFALL setup look like?</h2>
-            <h4>A fully managed food and drink solution tailored to your workplace — installed, stocked, and maintained by the MCFALL team, designed to improve how your workplace feels and functions every day.</h4>
+            <p className="body-text">A fully managed food and drink solution tailored to your workplace — installed, stocked, and maintained by the MCFALL team, designed to improve how your workplace feels and functions every day.</p>
           </div>
           <div className="content-image-media">
             <img src={imgIMG5331} alt="Vending solution in practice" />

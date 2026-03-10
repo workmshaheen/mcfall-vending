@@ -96,15 +96,15 @@ export default function AboutUs() {
         <div className="content-image-flex image-right">
           <div className="content-image-text">
             <h2>Our Mission</h2>
-            <h4>
+            <p className="body-text">
               Since launching, MCFALL Vending Services has grown quickly in a short space of time, with machines now placed across the UK. We have secured major client wins across large warehouses, office hubs, and high footfall locations across the South East and beyond.
-            </h4>
-            <h4 style={{ marginTop: 16 }}>
+            </p>
+            <p className="body-text" style={{ marginTop: 16 }}>
               With the average person spending around one third of their adult life at work, we believe workplace amenities matter more than ever. While we are proud to support large scale environments, our core focus remains on offices and warehouses where a reliable and well managed vending solution can make the biggest day to day impact.
-            </h4>
-            <h4 style={{ marginTop: 16 }}>
+            </p>
+            <p className="body-text" style={{ marginTop: 16 }}>
               Having worked in high-pressure workplaces with long working hours, our aim is to improve the everyday experience for people at work. Based in Harlow, Essex, we help businesses provide easy access to food and drink on site, improving morale, reducing time away from the workplace, and supporting productivity throughout the day.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgIMG6999} alt="Vending machine" />
@@ -117,12 +117,12 @@ export default function AboutUs() {
         <div className="content-image-flex">
           <div className="content-image-text">
             <h2>Built for the Workplace</h2>
-            <h4>
+            <p className="body-text">
               In warehouse environments especially, small conveniences can have an outsized impact. The average warehouse worker can walk several miles per shift and burn hundreds of calories during a working day, often in physically demanding conditions.
-            </h4>
-            <h4 style={{ marginTop: 16 }}>
+            </p>
+            <p className="body-text" style={{ marginTop: 16 }}>
               Our machines are available 24 hours a day, 7 days a week, all year round, ensuring teams always have access to food and drinks across every shift. That is why we use high-quality vending machines and technology from leading suppliers, including modern card readers, touchscreen basket technology, and real-time stock monitoring.
-            </h4>
+            </p>
           </div>
           <div className="content-image-media">
             <img src={imgVending2} alt="Vending machine installation" />

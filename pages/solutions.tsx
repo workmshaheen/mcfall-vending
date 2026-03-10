@@ -149,12 +149,12 @@ export default function Solutions() {
           <div className="content-image-flex image-right">
             <div className="content-image-text">
               <h2>The MCFALL Standard — Smarter Machines, Better Products</h2>
-              <h4>
+              <p className="body-text">
                 Every MCFALL machine uses real-time stock tracking and market-leading card readers for fast, secure payments. Our guaranteed vend and basket technology means your team is only charged when an item is successfully dispensed. LED lighting and interactive screens make every machine easy and intuitive to use.
-              </h4>
-              <h4 style={{ marginTop: 20 }}>
+              </p>
+              <p className="body-text" style={{ marginTop: 20 }}>
                 We stock high-quality food and drink from trusted brands including Lavazza coffee and household names like McCoy's, Coca-Cola and Cadbury. Every machine is fully maintained by the MCFALL engineering team, with proactive servicing and rapid call-outs to keep everything running smoothly.
-              </h4>
+              </p>
             </div>
             <div className="content-image-media">
               <img src={imgChatGPT0721} alt="Smart vending technology" />

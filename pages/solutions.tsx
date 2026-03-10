@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import {
-  imgCoffeeSnak, imgPropcallLogo, imgMerchant6, imgChatGPT0629,
+  imgCoffeeSnak, imgMerchant6, imgChatGPT0629,
   imgIMG6999, imgNectaSamba, imgCraneCali, imgCOTI, imgCoffetekNeo,
   imgCoffetekZensia, imgSquarePro, imgSquareMini, imgSquareDouble,
   imgSquareBavmax, imgChatGPT0721, imgIMG6449, imgMediacitySmart,
@@ -73,15 +73,6 @@ export default function Solutions() {
         </div>
       </section>
 
-      {/* ── PROPCALL TESTIMONIAL ── */}
-      <section className="testimonial-row">
-        <p>"The vending machine has been a huge hit at PropCall. Seamless service, flexible product selection, and a welcome boost to our social budget."{' '}
-          <Link href="/case-studies" style={{ color: '#000' }}><strong>See Case Study</strong></Link>
-        </p>
-        <div className="logo-wrap">
-          <img src={imgPropcallLogo} alt="PropCall" />
-        </div>
-      </section>
 
       {/* ── VENDING MACHINES ── */}
       <section id="vending-machines" className="solutions-category-section" style={{ background: '#fff' }}>
